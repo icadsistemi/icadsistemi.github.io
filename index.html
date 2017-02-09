@@ -10,14 +10,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
-        integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <style>
-        * {
-            margin: 0;
-        }
-        html, body {
-            height: 99%;
-        }
+        * { margin: 0; }
+        html, body { height: 99%; }
         .wrapper {
             min-height: 100%;
             height: auto !important;
@@ -41,56 +37,56 @@
 <body>
     <div class="wrapper">
         <header class="jumbotron text-center">
-          <img src="images/islogo.png" width="350px" height="auto">
-          <h1>Public Key Infrastructure</h1> 
-      </header>
-      
-      <div class="container">
-        <div class="row">
+            <img src="images/islogo.png" width="350px" height="auto">
+            <h1>Public Key Infrastructure</h1> 
+        </header>
 
-            <div class="col-sm-4 text-center">
-                <h3>Root</h3>
-                <p><span class="badge badge-pill badge-green">ICAD Sistemi Root CA</span></p>
-                <p><strong>ValidFrom</strong> <em>07/02/2017</em></p>
-                <p><strong>ValidTo</strong> <em>02/02/2037</em></p>
-                <p><button type="button" class="btn btn-primary btn-sm btn-block"
-                onClick="location.href='ca.cert.pem';">ca.cert.pem</button></p>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-sm-4 text-center">
+                    <h3>Root</h3>
+                    <p><span class="badge badge-pill badge-green">ICAD Sistemi Root CA</span></p>
+                    <p><strong>ValidFrom</strong> <em>07/02/2017</em></p>
+                    <p><strong>ValidTo</strong> <em>02/02/2037</em></p>
+                    <p><button type="button" class="btn btn-primary btn-sm btn-block"
+                        onClick="location.href='ca.cert.pem';">ca.cert.pem</button></p>
+                </div>
+
+                <div class="col-sm-4 text-center">
+                    <h3>Intermediate</h3>
+                    <p><span class="badge badge-pill badge-green">ICAD Sistemi Intermediate CA</span></p>
+                    <p><strong>ValidFrom</strong> <em>07/02/2017</em></p>
+                    <p><strong>ValidTo</strong> <em>05/02/2027</em></p>
+                    <p><button type="button" class="btn btn-primary btn-sm btn-block"
+                        onClick="location.href='intermediate.cert.pem';">intermediate.cert.pem</button></p>
+                </div>
+
+                <div class="col-sm-4 text-center">
+                    <h3>CRL</h3>
+                    <p><span class="badge badge-pill badge-green">ICAD Sistemi Intermediate CA</span></p>
+                    <p><strong>AuthKeyIdent</strong> <abbr title="keyid:8D:95:06:D0:80:E3:7C:31:AA:3C:64:B9:F3:33:A6:CF:65:CE:BC:DD"
+                        class="initialism"><em>8D:95:06:D0...</em></abbr></p>
+                        <p>&nbsp;</p>
+                        <p><button type="button" class="btn btn-primary btn-sm btn-block"
+                            onClick="location.href='intermediate.crl.pem';">intermediate.crl.pem</button></p>
+                </div>
+
             </div>
-
-            <div class="col-sm-4 text-center">
-                <h3>Intermediate</h3>
-                <p><span class="badge badge-pill badge-green">ICAD Sistemi Intermediate CA</span></p>
-                <p><strong>ValidFrom</strong> <em>07/02/2017</em></p>
-                <p><strong>ValidTo</strong> <em>05/02/2027</em></p>
-                <p><button type="button" class="btn btn-primary btn-sm btn-block"
-                onClick="location.href='intermediate.cert.pem';">intermediate.cert.pem</button></p>
-            </div>
-
-            <div class="col-sm-4 text-center">
-                <h3>CRL</h3>
-                <p><span class="badge badge-pill badge-green">ICAD Sistemi Intermediate CA</span></p>
-                <p><strong>AuthKeyIdent</strong> <abbr title="keyid:8D:95:06:D0:80:E3:7C:31:AA:3C:64:B9:F3:33:A6:CF:65:CE:BC:DD"
-                class="initialism"><em>8D:95:06:D0...</em></abbr></p>
-                <p>&nbsp;</p>
-                <p><button type="button" class="btn btn-primary btn-sm btn-block"
-                onClick="location.href='intermediate.crl.pem';">intermediate.crl.pem</button></p>
-            </div>
-
+            <div class="push"></div>
         </div>
-        <div class="push"></div>
     </div>
-</div>
-<div class="footer text-center">
-  <p><strong>ICAD SISTEMI</strong> <em>&copy; All rights reserved.</em></p>
-  <p><a href="https://github.com/icadsistemi/icadsistemi.github.io">Checkout repository on GitHub</a></p>
-  <p><a href="https://github.com/icadsistemi/icadsistemi.github.io"><img src="images/octocat.png" width="25px" height="auto"></a></p>
-</div>
-<!-- jQuery first, then Tether, then Bootstrap JS. -->
-<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
-integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
-integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
-integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <div class="footer text-center">
+        <p><strong>ICAD SISTEMI</strong> <em>&copy; All rights reserved.</em></p>
+        <p><a href="https://github.com/icadsistemi/icadsistemi.github.io">Checkout repository on GitHub</a></p>
+        <p><a href="https://github.com/icadsistemi/icadsistemi.github.io"><img src="images/octocat.png" width="25px" height="auto"></a></p>
+    </div>
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+    integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+    integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+    integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 </body>
 </html>
