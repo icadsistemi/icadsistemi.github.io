@@ -26,8 +26,8 @@ See deployment instruction under "**[Running the tests](#running-the-tests)**" s
 
 ## Installing
 
-There is no need to install any component because all check can be done from your local command line.
-You can use OpenSSL in order to execute all necessary step.
+There is no need to install any component because all checks can be done from your local command line.
+You can use OpenSSL in order to execute all necessary steps.
 
 ## Running the tests
 
