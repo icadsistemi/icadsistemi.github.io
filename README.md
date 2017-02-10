@@ -38,7 +38,7 @@ You can use OpenSSL in order to execute all necessary step.
 
 ### Get a certificate with a CRL
 
-Note that I'll be using `<host_ip>` e `<host_port>` in order to indicate the remote server and port that you want to test during the entire procedure.
+Note that I'll be using `<host_ip>` and `<host_port>` in order to indicate the remote server and port that you want to test during the entire procedure.
 
 First we will need the server certificate from our remote TLS server.
 Save this output to a file, for example, `server.pem`.
