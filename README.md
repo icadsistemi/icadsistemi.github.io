@@ -71,8 +71,10 @@ openssl crl -inform DER -in crl.der -outform PEM -out crl.pem
 
 ### Getting the certificate chain
 
-Save all certificates in the order OpenSSL sends them (as in, first the one which directly issued your server certificate,
-then the one that issues that certificate and so on, with the root or most-root at the end of the file) to a file, named `chain.pem`.
+Save all the certificates in the same order with which OpenSSL sends them
+(as in, first the one which directly issued your server certificate,
+then the one that issues that certificate and so on, with the root or most-root at the end of the file)
+to a file, named `chain.pem`.
 
 To do so you can use the following command:
 
