@@ -26,7 +26,7 @@ $ ... todo ...
 
 This is an internal project, so this repository will not accept external PR.
 For any change or issue please discuss via "[issues](https://github.com/icadsistemi/icadsistemipki/issues)",
-[email](mailto:github@icadsistemi.com) or any other methods with the owners of this repository instead of open a PR.
+[email](mailto:github@icadsistemi.com) or any other method with the owners of this repository instead of open a PR.
 
 ## Authors
 
