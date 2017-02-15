@@ -1,3 +1,5 @@
+![ICAD SISTEMI][islogo]
+
 # ICAD SISTEMI PKI
 
 GitHub Pages repository for ICAD Sistemi Public Key Infrastructure
@@ -118,3 +120,6 @@ For any change or issue please discuss via "[issues](https://github.com/icadsist
 ## Authors
 
 * **Trimarchi Manuele** - [mtrimarchi](https://github.com/mtrimarchi)
+
+[//]: # (Reference images)
+[islogo]: https://raw.githubusercontent.com/icadsistemi/icadsistemipki/gh-pages/images/islogo.png "ICAD SISTEMI"
